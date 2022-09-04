@@ -7,7 +7,7 @@ sudo pacman -S --noconfirm noto-fonts ttf-roboto ttf-ubuntu-font-family ttf-fira
 sudo pacman -S --noconfirm lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings 
 
 # Basic software installation
-sudo pacman -S --noconfirm firefox thunderbird ffmpeg mpv reflector lxappearance archlinux-wallpaper bitwarden neofetch xpdf
+sudo pacman -S --noconfirm firefox thunderbird ffmpeg mpv reflector lxappearance archlinux-wallpaper bitwarden neofetch
 sudo flatpak install -y spotify
 
 # Update mirrorlist
