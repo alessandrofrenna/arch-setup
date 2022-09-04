@@ -1,7 +1,11 @@
 #!/bin/bash
 
 # Fonts
-sudo pacman -S --noconfirm noto-fonts ttf-roboto ttf-ubuntu-font-family ttf-fira-mono ttf-hack ttf-fira-code ttf-jetbrains-mono ttf-opensans noto-fonts-cjk noto-fonts-emoji ttf-font-awesome ttf-nerd-fonts-*
+sudo pacman -S --noconfirm noto-fonts ttf-roboto ttf-ubuntu-font-family ttf-fira-mono ttf-hack ttf-fira-code \
+ttf-jetbrains-mono ttf-opensans noto-fonts-cjk noto-fonts-emoji ttf-font-awesome ttf-nerd-fonts-symbols-1000-em \
+ttf-nerd-fonts-symbols-1000-em-mono  ttf-nerd-fonts-symbols-2048-em  ttf-nerd-fonts-symbols-2048-em-mono
+
+
 
 # Lightdm
 sudo pacman -S --noconfirm lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings 
