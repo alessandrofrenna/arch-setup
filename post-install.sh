@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 
 # Fonts
 sudo pacman -S --noconfirm noto-fonts ttf-roboto ttf-ubuntu-font-family ttf-fira-mono ttf-hack ttf-fira-code ttf-jetbrains-mono ttf-opensans noto-fonts-cjk noto-fonts-emoji ttf-font-awesome ttf-nerd-fonts-*
@@ -19,7 +19,6 @@ systemctl enable reflector.service
 systemctl enable reflector.timer
 
 # Install yay
-cd /tmp
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si

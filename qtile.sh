@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 
 # Install qtile
 sudo pacman -S --noconfirm qtile nitrogen picom rofi
