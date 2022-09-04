@@ -19,8 +19,7 @@ sudo reflector -c Italy, -a 10 --sort rate --protocol https --save /etc/pacman.d
 
 # Enable services
 sudo systemctl enable lightdm
-systemctl enable reflector.service
-systemctl enable reflector.timer
+sudo systemctl enable reflector.timer
 
 # Install yay
 git clone https://aur.archlinux.org/yay.git
