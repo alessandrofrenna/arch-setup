@@ -19,8 +19,8 @@ pacman -S --noconfirmnvidia nvidia-utils nvidia-settings xorg
 systemctl enable sshd
 systemctl enable NetworkManager
 systemctl enable bluetooth
-systemctl enable avahi-deamon
+systemctl enable avahi-daemon
 systemctl enable cups.service
 
 # Purge cache
-pacman -Scc
+pacman -Scc --noconfirm

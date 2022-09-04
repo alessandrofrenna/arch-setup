@@ -31,5 +31,5 @@ yay -S --noconfirm pix
 yay -S --noconfirm ly
 
 # Purge cache
-pacman -Scc
-yay -Scc
+pacman -Scc --noconfirm
+yay -Scc --noconfirm

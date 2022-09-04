@@ -4,4 +4,4 @@
 sudo pacman -S --noconfirm qtile nitrogen picom rofi
 
 # Purge cache
-pacman -Scc
+pacman -Scc --noconfirm
